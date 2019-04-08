@@ -4,9 +4,8 @@ h1, h2 {
   margin: 0px 0px 30px;
 }
 
-
 .introimage {
-  background-image: radial-gradient((transparent, rgba(0,0,0,0.55)), url("Pictures/hook.jpg");
+  background-image: radial-gradient(transparent, rgba(0,0,0,0.55)), url("Pictures/hook.jpg");
   padding: 200px 100px;
   color: white;
   background-repeat: no-repeat;

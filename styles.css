@@ -1,60 +1,15 @@
 h1, h2 {
   font-family: Georgia, serif;
-  font-size: 64px;
-  margin: 0px 0px 30px;
 }
 
 
 .introimage {
-  background-image: radial-gradient((transparent, rgba(0,0,0,0.55)), url("Pictures/hook.jpg");
+  background-image: radial-gradient(transparent, rgba(0,0,0,0.5)), url("Pictures/hook.jpg");
   padding: 200px 100px;
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Verdana, sans-serif;
-}
-
-footer {
-  margin-top: 50px;
-}
-.nospace {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-ul {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  padding-inline-start: 40px;
-}
-
-li {
-  font-family: Verdana;
-}
-.pushright li {
-  margin-right 20px;
-}
-.inline * {
-  display: inline-block;
-}
 
 
-.btn {
-  color: #FFFFFF;
-  background-color: #96B2B6;
-  border-color: #96B2B6;
-  padding: 15px 25px 17px;
-  font-family: 14px Verdana;
-}
-.btn:hover {
-  color: #96B2B6;
-  background-color: #FFFFFF;
-  border-color: #FFFFFF;
-}
-.btn.inverse:hover {
-  color: #96B2B6;
-  background-color: #FFFFFF;
-  border-color: #FFFFFF;
 }

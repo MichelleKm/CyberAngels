@@ -57,3 +57,20 @@ li {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
 }
+
+.marketing{
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media{
+width: 50%;
+background-color: grey;
+}
+
+.newsletter{
+  width: 50%;
+  background-color: green;
+}

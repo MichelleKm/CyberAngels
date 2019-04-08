@@ -28,7 +28,6 @@ ul {
   margin-inline-start: 0px;
   padding-inline-start: 40px;
 }
-
 li {
   font-family: Verdana;
 }
@@ -38,8 +37,6 @@ li {
 .inline * {
   display: inline-block;
 }
-
-
 .btn {
   color: #FFFFFF;
   background-color: #96B2B6;
@@ -56,6 +53,34 @@ li {
   color: #96B2B6;
   background-color: #FFFFFF;
   border-color: #FFFFFF;
+}
+
+.row3 {
+  color:#959394;
+  background-color: #FFFFFF
+}
+.row3, .row3 a {
+}
+.wrapper{
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  word-wrap:break-word;
+}
+body{
+  font-family: Verdana, Geneva, sans-serif;
+}
+body{
+  font-size: 14px;
+  line-height: 1.6em;
+}
+@media screen and (max-width: 900px)
+.container {
+}
+.container {
+  padding: 80px 0;
 }
 
 .marketing{

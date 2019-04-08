@@ -55,6 +55,7 @@ li {
   border-color: #FFFFFF;
 }
 
+<<<<<<< HEAD
 .row3 {
   color:#959394;
   background-color: #FFFFFF
@@ -81,4 +82,21 @@ body{
 }
 .container {
   padding: 80px 0;
+=======
+.marketing{
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media{
+width: 50%;
+background-color: grey;
+}
+
+.newsletter{
+  width: 50%;
+  background-color: green;
+>>>>>>> c524108c7d8b1714ad3653583962dc35ac05a4be
 }

@@ -112,6 +112,9 @@ background-color: rgba(0,0,0,0.55);
   background-color: rgba(0,0,0,0.55);
 }
 
-.clear{
-  font-size: large;
+.case-studies{
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
 }

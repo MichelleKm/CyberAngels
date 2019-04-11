@@ -93,9 +93,21 @@ body{
 .social-media{
 width: 50%;
 background-color: grey;
+font-size: large;
+text-align: center;
+display: inline-block;
+font-family: Verdana;
+color: white;
+background-color: rgba(0,0,0,0.55);
 }
 
 .newsletter{
   width: 50%;
   background-color: grey;
+  font-size: large;
+  text-align: center;
+  display: inline-block;
+  font-family: Verdana;
+  color: white;
+  background-color: rgba(0,0,0,0.55);
 }

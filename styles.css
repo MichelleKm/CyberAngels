@@ -82,6 +82,15 @@ body{
 .container {
   padding: 80px 0;
 }
+.hoc {
+  display: block;
+  margin: 0 auto;
+}
+.clear, .clear::after, .group, .group::after{
+  clear: both;
+}
+
+
 
 .marketing{
   width: 100%;

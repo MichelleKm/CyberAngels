@@ -5,13 +5,12 @@ h1, h2 {
 }
 
 .introimage {
-  background-image: repeating-linear-gradient(transparent, rgba(0,0,0,0.6)), url("Pictures/hook.jpg");
+  background-image: radial-gradient(transparent, rgba(0,0,0,0.55)), url("Pictures/hook.jpg");
   padding: 200px 100px;
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Verdana, sans-serif;
-  font-size: 14px;
 }
 
 footer {
@@ -171,4 +170,5 @@ background-color: rgba(0,0,0,0.55);
     content: "";
     position: absolute;
     right: 20px;
+
 }

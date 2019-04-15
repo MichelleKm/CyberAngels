@@ -37,13 +37,14 @@ ul {
 .inline * {
   display: inline-block;
 }
-.btn {
+.btn , .btn:link {
   color: #FFFFFF;
   background-color: #96B2B6;
   border-color: #96B2B6;
   padding: 15px 25px 17px;
   font-family: 14px Verdana;
   margin-left: 5px;
+  -webkit-appearance: unset;
 }
 .btn:hover {
   color: #96B2B6;

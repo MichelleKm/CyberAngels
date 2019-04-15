@@ -19,7 +19,7 @@ footer {
 .nospace {
   margin: 0;
   padding: 0;
-  list-style: none;
+
 }
 ul {
   display: block;
@@ -28,10 +28,10 @@ ul {
   margin-inline-start: 0px;
   padding-inline-start: 40px;
 }
-li {
+.one_third {
   font-family: Verdana;
 }
-.pushright li {
+.pushright one_third {
   margin-right 20px;
 }
 .inline * {
@@ -43,6 +43,7 @@ li {
   border-color: #96B2B6;
   padding: 15px 25px 17px;
   font-family: 14px Verdana;
+  margin-left: 5px;
 }
 .btn:hover {
   color: #96B2B6;
@@ -62,7 +63,7 @@ li {
 .row3, .row3 a {
 }
 .wrapper{
-  display: block;
+  display: flex;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -76,21 +77,27 @@ body{
   font-size: 14px;
   line-height: 1.6em;
 }
+
+.services article .heading{
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+.services article * {
+  margin: auto;
+}
+
+.nospace{
+  margin-bottom: 10px;
+
+}
+
 @media screen and (max-width: 900px)
 .container {
 }
 .container {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
-
-.services article .heading{
-  margin-bottom: 10px;
-  font-size: 1.2rem;
-}
-.services article * {
-  margin: 0;
-}
 h6, .heading{
 line-height: normal;
 font-weight: normal;
@@ -108,13 +115,10 @@ a {
 }
 
 
-
-
 .alert{
   color: rgba(255, 0, 0, 0.5);
   font-weight: bold;
 }
-
 
 
 .marketing{
@@ -217,5 +221,10 @@ background-color: rgba(0,0,0,0.55);
 }
 
 .one_third{
-  max-width: 300px;
+  width: 300px;
+}
+
+.bd-example{
+  height: auto;
+  width: auto;
 }

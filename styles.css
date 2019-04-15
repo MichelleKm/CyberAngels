@@ -5,7 +5,7 @@ h1, h2 {
 }
 
 .introimage {
-  background-image: radial-gradient(transparent, rgba(0,0,0,0.55)), url("Pictures/hook.jpg");
+  background-image: linear-gradient(transparent, rgba(0,0,0,0.6)), url("Pictures/hook.jpg");
   padding: 200px 100px;
   color: white;
   background-repeat: no-repeat;
@@ -19,8 +19,8 @@ footer {
 .nospace {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
+
 ul {
   display: block;
   margin-block-start: 1em;
@@ -28,10 +28,10 @@ ul {
   margin-inline-start: 0px;
   padding-inline-start: 40px;
 }
-li {
+.one_third {
   font-family: Verdana;
 }
-.pushright li {
+.pushright one_third {
   margin-right 20px;
 }
 .inline * {
@@ -43,6 +43,7 @@ li {
   border-color: #96B2B6;
   padding: 15px 25px 17px;
   font-family: 14px Verdana;
+  margin-left: 5px;
 }
 .btn:hover {
   color: #96B2B6;
@@ -62,13 +63,15 @@ li {
 .row3, .row3 a {
 }
 .wrapper{
-  display: block;
+  display: flex;
   width: 100%;
   margin: 0;
   padding: 0;
   text-align: left;
-  word-wrap:break-word;
+  word-wrap: break-word;
 }
+
+
 body{
   font-family: Verdana, Geneva, sans-serif;
 }
@@ -76,12 +79,45 @@ body{
   font-size: 14px;
   line-height: 1.6em;
 }
-@media screen and (max-width: 900px)
-.container {
+
+.services article .heading{
+  margin-bottom: 10px;
+  font-size: 1.5rem;
 }
-.container {
-  padding: 80px 0;
+.services article * {
+  margin: auto;
 }
+
+.nospace{
+  margin-bottom: 10px;
+}
+
+.container {
+  padding: 10px;
+}
+
+h6, .heading{
+line-height: normal;
+font-weight: normal;
+text-transform: capitalize;
+}
+h6, .heading{
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+*, *::before, *::after{
+  transition: all .3s, ease-in-out;
+}
+
+a {
+  color: #96B2B6;
+}
+
+
+.alert{
+  color: rgba(255, 0, 0, 0.5);
+  font-weight: bold;
+}
+
 
 .marketing{
   width: 100%;
@@ -93,6 +129,7 @@ body{
 
 .social-media{
 width: 50%;
+background-color: grey;
 font-size: large;
 text-align: center;
 display: inline-block;
@@ -103,6 +140,7 @@ background-color: rgba(0,0,0,0.55);
 
 .newsletter{
   width: 50%;
+  background-color: grey;
   font-size: large;
   text-align: center;
   display: inline-block;
@@ -119,10 +157,10 @@ background-color: rgba(0,0,0,0.55);
   display: flex;
   justify-content: center;
   flex-direction: row;
+  font-style: italic;
 }
 
 .joe-bloggs{
-  width: 50%;
   font-size: medium;
   color: white;
   background-color: #96B2B6;
@@ -130,6 +168,7 @@ background-color: rgba(0,0,0,0.55);
   flex-direction: row;
   text-align: center;
   justify-content: center;
+  font-style: italic;
 }
 
 
@@ -142,6 +181,7 @@ background-color: rgba(0,0,0,0.55);
   flex-direction: row;
   text-align: center;
   justify-content: center;
+  font-style: italic;
 }
 
 .speech-bubble {
@@ -156,6 +196,7 @@ background-color: rgba(0,0,0,0.55);
     max-width: 300px;
     padding: 10px;
     position: relative;
+
 }
 
 .speech-bubble p {
@@ -171,9 +212,24 @@ background-color: rgba(0,0,0,0.55);
     bottom: -20px;
     content: "";
     position: absolute;
-    left: 20px;\
-.speech-bubble2{
+    left: 20px;
+}
 
+.services{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+ul {
+  columns: 2;
+  -webkit-columns:2;
+  -moz-columns:2;
+}
+
+.bd-example{
+  height: auto;
+  width: auto;
 }
 
 body{background-color: grey;

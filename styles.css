@@ -19,8 +19,8 @@ footer {
 .nospace {
   margin: 0;
   padding: 0;
-
 }
+
 ul {
   display: block;
   margin-block-start: 1em;
@@ -68,8 +68,10 @@ ul {
   margin: 0;
   padding: 0;
   text-align: left;
-  word-wrap:break-word;
+  word-wrap: break-word;
 }
+
+
 body{
   font-family: Verdana, Geneva, sans-serif;
 }
@@ -88,14 +90,10 @@ body{
 
 .nospace{
   margin-bottom: 10px;
-
 }
 
-@media screen and (max-width: 900px)
 .container {
-}
-.container {
-  padding: 60px 0;
+  padding: 10px;
 }
 
 h6, .heading{
@@ -218,10 +216,13 @@ background-color: rgba(0,0,0,0.55);
 .services{
   display: flex;
   flex-wrap: wrap;
+  width: 300px;
 }
 
-.one_third{
-  width: 300px;
+ul {
+  columns: 2;
+  -webkit-columns:2;
+  -moz-columns:2;
 }
 
 .bd-example{

@@ -64,11 +64,16 @@ ul {
 }
 .wrapper{
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   margin: 0;
   padding: 0;
   text-align: left;
   word-wrap: break-word;
+}
+.one_third {
+  width: 33%;
+  padding: 10px;
 }
 
 
@@ -224,13 +229,17 @@ background-color: rgba(0,0,0,0.55);
 .services{
   display: flex;
   flex-wrap: wrap;
-  width: 300px;
 }
 
 ul {
   columns: 2;
   -webkit-columns:2;
   -moz-columns:2;
+}
+
+.centre
+{
+  text-align: center;
 }
 
 .bd-example{
